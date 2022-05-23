@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="S7CristhianMotoche9A.Editar" NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Spacing="10" Padding="10">
+                <Label x:Name="Actualizar"></Label>
+                <Label Text="Nombre: "></Label>
+                <Entry x:Name="TxtNombre" Placeholder="Nombre"></Entry>
+                <Label Text="Usuario: "></Label>
+                <Entry x:Name="TxtUsuario" Placeholder="Usuario"></Entry>
+                <Label Text="Contraseña: "></Label>
+                <Entry x:Name="TxtContrasenia" Placeholder="Contrasenia" IsPassword="True"></Entry>
+                <Button x:Name="btnActualizar" Text="Actualizar"  Clicked="btnActualizar_Clicked"></Button>
+                <Button x:Name="btnEliminar" Text="Eliminar" BackgroundColor="Red" Clicked="btnEliminar_Clicked"></Button>
+                <Button x:Name="btnRegresar" Text="Regresar" Clicked="btnRegresar_Clicked"></Button>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
